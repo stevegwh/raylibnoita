@@ -1,0 +1,3 @@
+/home/roxie/CLionProjects/raylibnoita/cmake-build-debug/CMakeFiles/raylibnoita.dir
+/home/roxie/CLionProjects/raylibnoita/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/roxie/CLionProjects/raylibnoita/cmake-build-debug/CMakeFiles/rebuild_cache.dir
