@@ -32,16 +32,16 @@ int main()
     {
         // Update
         //----------------------------------------------------------------------------------
-        timer += GetFrameTime();
-        if (timer > moveThreshold)
-        {
-            timer = 0;
-            canMove = true;
-        }
-        else
-        {
-            canMove = false;
-        }
+//        timer += GetFrameTime();
+//        if (timer > moveThreshold)
+//        {
+//            timer = 0;
+//            canMove = true;
+//        }
+//        else
+//        {
+//            canMove = false;
+//        }
         
         if (IsMouseButtonDown(MOUSE_BUTTON_LEFT) || IsMouseButtonDown(MOUSE_BUTTON_RIGHT)
         || IsMouseButtonDown(MOUSE_BUTTON_MIDDLE))
@@ -99,7 +99,7 @@ int main()
                 continue;
             }
             block->Draw();
-            if (!canMove) continue;
+//            if (!canMove) continue;
             block->Update();
         }
         

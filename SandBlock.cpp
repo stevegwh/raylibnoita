@@ -25,7 +25,7 @@ void SandBlock::Update()
     }
     else
     {
-        // If it can't move down, try to move either right or left.
+        // If it can't move down, try to move either diagonally right or left.
         int leftX = rect.x - GRIDSIZE;
         int rightX = rect.x + GRIDSIZE;
         std::string leftKey = Grid::GetGridKey(leftX, newPosY);
